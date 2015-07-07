@@ -1,0 +1,256 @@
+ 
+
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;	
+	background-color: #999999;
+}
+/*img.example-orbit {
+	height: 600px;
+}*/
+
+#logo > a > img {
+	height: 50px;
+}
+
+div.example-orbit {
+	padding-top: 50px;
+}
+
+
+.banner-image {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+div.orbit-slide-number {
+	display: none;
+}
+
+div.orbit-caption p {
+	margin: 0 auto;
+	height: 10%;
+	font-family: 'Roboto', sans-serif;	
+	position: absolute;
+	color: red;
+	background-position: black;
+}
+
+.left.navsection > li > a {
+	color: #121676;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+
+}
+	.right.navsection > li > a {
+	color: #121676;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+
+
+/* Change: color*/
+
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		background: grey;
+	}
+	.top-bar { 
+		background: grey;
+    	
+	}
+
+
+.orbit-container {
+	height: 80vh;
+}
+
+
+a.button {
+	color: white;
+	font-size: 20px;
+	background-color: rgba(0, 0, 255, 0.3);
+	margin: 0 auto;
+	position: absolute;
+    border-radius: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sign-up a.button {
+	top: 5%;
+	left: 5%;
+}
+
+
+ a.button:hover {
+    background-color: red;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	position: relative;
+}
+
+
+div#social  {
+	height: 100px;
+	padding: 10px;
+	
+}
+
+.i {
+	padding: 10px;
+}
+
+
+}
+body {
+	background-color: #ccc;
+	padding: 50px;
+	text-align: center;
+
+}
+
+h1 { 
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight: 600;
+	 font-size: 32px;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	 font-weight: 400;
+	 font-size: 24px;
+}
+
+p { 
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	
+}
+
+div#biglogo a img {
+	margin: 0 auto;
+	width: 400px;
+	display: block;
+	padding: 10px;
+}
+
+div#wehclake a img {
+	margin: 0 auto;
+	width: 400px;
+	display: block;
+	padding: 10px;
+
+}
+
+div#about {
+	border: solid 2px black;
+	padding: 20px;
+	width: 550px;
+	margin: 0 auto;
+	background-color: #D62318;
+	border-radius: 10px;
+	display: block;
+
+}
+
+div#activities {
+	border: solid 2px black;
+	padding: 20px;
+	width: 550px;
+	margin: 0 auto;
+	background-color: #2A7CCC;
+	border-radius: 10px;
+	display: block;
+
+
+}
+
+
+
+
+/* Wrapper */
+.icon-button {
+	background-color: #2B4EDD;
+	border-radius: 3.6rem;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2.0rem;
+	height: 3.6rem;
+	line-height: 3.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 3.6rem;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 3.6rem;
+	height: 3.6rem;
+	border-radius: 3.6rem;
+	margin: -1.8rem;
+}
+.twitter span {
+	background-color: #4099ff;
+}
+.facebook span {
+	background-color: #3B5998;
+}
+.google-plus span {
+	background-color: #db5a3c;
+}
+
+/* Icons */
+.icon-button i {
+	background: none;
+	color: white;
+	height: 3.6rem;
+	left: 0;
+	line-height: 3.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 3.6rem;
+	z-index: 10;
+}
+.icon-button .icon-twitter {
+	color: #4099ff;
+}
+.icon-button .icon-facebook {
+	color: #3B5998;
+}
+.icon-button .icon-google-plus {
+	color: #db5a3c;
+}
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-facebook,
+.icon-button:hover .icon-google-plus {
+	color: white;
+}
